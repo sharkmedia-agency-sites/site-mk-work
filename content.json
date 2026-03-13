@@ -1,0 +1,230 @@
+{
+  "site_name": "M+K Work s.r.o.",
+  "site_url": "",
+  "schema_version": "1.0",
+  "theme": {
+    "primary": "#C97B1A",
+    "secondary": "#1A1A1A",
+    "accent": "#A86415",
+    "dark": "#111111",
+    "light": "#F4EFE8",
+    "stone": "#9B8C7E",
+    "text": "#2C2C2C",
+    "text_light": "#7A7069"
+  },
+  "fonts": {
+    "heading": "Archivo",
+    "body": "DM Sans"
+  },
+  "whatsapp": "421902160679",
+  "sections": [
+    {
+      "type": "navigation",
+      "id": "nav_1",
+      "label": "Navigation",
+      "order": 1,
+      "fields": {
+        "logo_text": "M+K Work",
+        "logo_sub": "s.r.o.",
+        "cta_text": "Kontaktujte nás",
+        "cta_url": "#contact_1",
+        "links": [
+          { "id": "nav_l1", "label": "Domov", "url": "#hero_1" },
+          { "id": "nav_l2", "label": "O nás", "url": "#about_1" },
+          { "id": "nav_l3", "label": "Služby", "url": "#services_1" },
+          { "id": "nav_l4", "label": "Galéria", "url": "#gallery_1" },
+          { "id": "nav_l5", "label": "Kontakt", "url": "#contact_1" }
+        ]
+      }
+    },
+    {
+      "type": "hero",
+      "id": "hero_1",
+      "label": "Hero Banner",
+      "order": 2,
+      "fields": {
+        "badge": "Poprad, Slovensko",
+        "headline": "Stavebné práce na najvyššej úrovni",
+        "subheadline": "Dlažby, zámkové dlažby, výkopové a zemné práce. Spoľahlivá firma s dlhoročnou praxou v Poprade a okolí.",
+        "cta_text": "Získajte cenovú ponuku",
+        "cta_url": "#contact_1",
+        "cta_secondary_text": "Naše práce",
+        "cta_secondary_url": "#gallery_1",
+        "background_image": "https://t4.ftcdn.net/jpg/03/47/63/93/360_F_347639327_Fw63cmpjoVvEKwovYyLT5ayBEj0nQR4W.jpg",
+        "stats": [
+          { "id": "stat_h1", "value": "100", "suffix": "+", "label": "Dokončených projektov" },
+          { "id": "stat_h2", "value": "10", "suffix": "+", "label": "Rokov skúseností" },
+          { "id": "stat_h3", "value": "100", "suffix": "%", "label": "Spokojných klientov" }
+        ]
+      }
+    },
+    {
+      "type": "about",
+      "id": "about_1",
+      "label": "O nás",
+      "order": 3,
+      "fields": {
+        "badge": "O spoločnosti",
+        "headline": "Sme M+K Work s.r.o.",
+        "text": "Stavebná firma M+K Work s.r.o. so sídlom v Poprade sa špecializuje na realizáciu dlažieb, zámkových dlažieb, výkopových a zemných prác. Hľadáme zákazky pre náš skúsený tím. Každý projekt realizujeme s precíznosťou, zodpovednosťou a dodržiavaním dohodnutých termínov.",
+        "text2": "Pracujeme pre súkromné osoby, obce aj firmy. Náš tím má rozsiahle skúsenosti s rôznymi typmi povrchov a terénom — od malých záhradných projektov až po veľké stavebné diela.",
+        "image": "https://www.bazos.sk/img/14/334/189348334.jpg",
+        "stats": [
+          { "id": "ast_1", "value": "100", "suffix": "+", "label": "Projektov" },
+          { "id": "ast_2", "value": "10", "suffix": "+", "label": "Rokov praxe" },
+          { "id": "ast_3", "value": "3", "suffix": "", "label": "Druhy služieb" },
+          { "id": "ast_4", "value": "100", "suffix": "%", "label": "Záruka kvality" }
+        ]
+      }
+    },
+    {
+      "type": "services_list",
+      "id": "services_1",
+      "label": "Naše služby",
+      "order": 4,
+      "fields": {
+        "badge": "Čo ponúkame",
+        "headline": "Naše služby",
+        "subheadline": "Komplexné stavebné riešenia pre každý projekt",
+        "items": [
+          {
+            "id": "svc_1",
+            "number": "01",
+            "title": "Dlažby a zámkové dlažby",
+            "description": "Profesionálna pokládka dlažieb a zámkových dlažieb pre príjazdové cesty, chodníky, parkovacie plochy a záhradné priestory. Pracujeme s rôznymi materiálmi a vzormi podľa vašich predstáv.",
+            "image": "https://www.bazos.sk/img/11/334/189348334.jpg",
+            "icon": "grid-2x2"
+          },
+          {
+            "id": "svc_2",
+            "number": "02",
+            "title": "Výkopové práce",
+            "description": "Realizácia výkopov pre základy, inžinierske siete, bazény a iné stavebné účely. Disponujeme potrebnou technikou a skúseným personálom pre efektívne a bezpečné výkopové práce.",
+            "image": "https://www.bazos.sk/img/3/334/189348334.jpg",
+            "icon": "shovel"
+          },
+          {
+            "id": "svc_3",
+            "number": "03",
+            "title": "Zemné práce",
+            "description": "Terénne úpravy, výstavba násypov, zemné práce pred výstavbou, odvoz zeminy a stavebného odpadu. Zabezpečíme prípravu pozemku na ďalšiu výstavbu rýchlo a profesionálne.",
+            "image": "https://www.earthmovingcontractorsmelbourne.com/wp-content/uploads/2019/03/excavationtippers.jpg",
+            "icon": "layers"
+          }
+        ]
+      }
+    },
+    {
+      "type": "gallery",
+      "id": "gallery_1",
+      "label": "Galéria prác",
+      "order": 5,
+      "fields": {
+        "badge": "Naše realizácie",
+        "headline": "Ukážky našich prác",
+        "subheadline": "Pozrite si výber z našich dokončených projektov",
+        "items": [
+          { "id": "gal_1",  "image": "https://www.bazos.sk/img/1/334/189348334.jpg",  "caption": "Zámková dlažba — príjazdová cesta",   "category": "dlažby" },
+          { "id": "gal_2",  "image": "https://www.bazos.sk/img/14/334/189348334.jpg",  "caption": "Pokládka dlažby — záhrada",           "category": "dlažby" },
+          { "id": "gal_3",  "image": "https://www.bazos.sk/img/11/334/189348334.jpg",  "caption": "Zámkové dlažby — chodník",            "category": "dlažby" },
+          { "id": "gal_4",  "image": "https://www.bazos.sk/img/4/334/189348334.jpg",  "caption": "Terénne úpravy — rodinný dom",        "category": "zemné práce" },
+          { "id": "gal_5",  "image": "https://www.bazos.sk/img/3/334/189348334.jpg",  "caption": "Výkopové práce",                      "category": "výkopy" },
+          { "id": "gal_6",  "image": "https://www.bazos.sk/img/6/334/189348334.jpg",  "caption": "Parkovisko — zámková dlažba",         "category": "dlažby" },
+          { "id": "gal_7",  "image": "https://www.earthmovingcontractorsmelbourne.com/wp-content/uploads/2019/03/excavationtippers.jpg",  "caption": "Záhradné úpravy",                     "category": "zemné práce" },
+          { "id": "gal_8",  "image": "https://www.bazos.sk/img/8/334/189348334.jpg",  "caption": "Pokládka dlažby",                     "category": "dlažby" },
+          { "id": "gal_9",  "image": "https://www.bazos.sk/img/9/334/189348334.jpg",  "caption": "Výkop — základy",                     "category": "výkopy" },
+          { "id": "gal_10", "image": "https://www.bazos.sk/img/2/334/189348334.jpg", "caption": "Zámková dlažba — dvor",               "category": "dlažby" },
+          { "id": "gal_11", "image": "https://www.bazos.sk/img/12/334/189348334.jpg", "caption": "Terénne úpravy",                      "category": "zemné práce" },
+          { "id": "gal_12", "image": "https://www.bazos.sk/img/13/334/189348334.jpg", "caption": "Dlažba — obchodné priestory",         "category": "dlažby" },
+          { "id": "gal_13", "image": "https://www.bazos.sk/img/5/334/189348334.jpg", "caption": "Zámkové dlažby",                      "category": "dlažby" },
+          { "id": "gal_14", "image": "https://www.bazos.sk/img/15/334/189348334.jpg", "caption": "Príjazdová cesta",                    "category": "dlažby" },
+          { "id": "gal_15", "image": "https://www.bazos.sk/img/16/334/189348334.jpg", "caption": "Chodník — zámková dlažba",            "category": "dlažby" },
+          { "id": "gal_16", "image": "https://www.bazos.sk/img/17/334/189348334.jpg", "caption": "Výkopové a zemné práce",              "category": "výkopy" },
+          { "id": "gal_17", "image": "https://www.bazos.sk/img/18/334/189348334.jpg", "caption": "Záhradné dlažby",                     "category": "dlažby" }
+        ]
+      }
+    },
+    {
+      "type": "features",
+      "id": "features_1",
+      "label": "Prečo si vybrať nás",
+      "order": 6,
+      "fields": {
+        "badge": "Naše výhody",
+        "headline": "Prečo M+K Work?",
+        "subheadline": "Dlhoročná prax, spoľahlivosť a kvalita — to sú naše základné hodnoty",
+        "items": [
+          { "id": "feat_1", "title": "Dlhoročná skúsenosť",    "description": "Viac ako 10 rokov realizujeme projekty rôznych rozsahov v Poprade a okolí.",                                         "icon": "award" },
+          { "id": "feat_2", "title": "Vlastná technika",        "description": "Disponujeme vlastnou strojnou technikou potrebnou pre výkopové a zemné práce.",                                      "icon": "truck" },
+          { "id": "feat_3", "title": "Dodržanie termínov",      "description": "Každý projekt dokončíme v dohodnutom čase a v rámci dohodnutého rozpočtu.",                                         "icon": "clock" },
+          { "id": "feat_4", "title": "Kvalitné materiály",      "description": "Používame len overené materiály od spoľahlivých dodávateľov.",                                                       "icon": "shield-check" },
+          { "id": "feat_5", "title": "Bezplatná konzultácia",   "description": "Radi vám pomôžeme s výberom riešenia a pripravíme cenovú ponuku zadarmo.",                                          "icon": "message-circle" },
+          { "id": "feat_6", "title": "Záruka na práce",         "description": "Naše práce sú podložené zárukou kvality a profesionálnou realizáciou.",                                             "icon": "badge-check" }
+        ]
+      }
+    },
+    {
+      "type": "process",
+      "id": "process_1",
+      "label": "Ako pracujeme",
+      "order": 7,
+      "fields": {
+        "badge": "Postup práce",
+        "headline": "Ako pracujeme",
+        "subheadline": "Jednoduchý a transparentný proces od prvého kontaktu až po odovzdanie diela",
+        "items": [
+          { "id": "proc_1", "step": "01", "title": "Kontakt a konzultácia", "description": "Ozvite sa nám telefonicky alebo e-mailom. Dohodneme si stretnutie a preberieme vaše požiadavky.", "icon": "phone-call" },
+          { "id": "proc_2", "step": "02", "title": "Obhliadka a ponuka",    "description": "Vykonáme obhliadku miesta a pripravíme nezáväznú cenovú ponuku na mieru.",                       "icon": "map-pin" },
+          { "id": "proc_3", "step": "03", "title": "Realizácia",            "description": "Náš skúsený tím vykoná práce v dohodnutom termíne s maximálnou starostlivosťou.",                 "icon": "hard-hat" },
+          { "id": "proc_4", "step": "04", "title": "Odovzdanie",            "description": "Po dokončení prác vykonáme spoločnú prehliadku a odovzdáme dielo v dohodnutej kvalite.",         "icon": "check-circle" }
+        ]
+      }
+    },
+    {
+      "type": "contact",
+      "id": "contact_1",
+      "label": "Kontakt",
+      "order": 8,
+      "fields": {
+        "badge": "Kontaktujte nás",
+        "headline": "Spojte sa s nami",
+        "subheadline": "Máte záujem o naše služby? Kontaktujte nás a my vám radi pripravíme cenovú ponuku.",
+        "phone": "0902 160 679",
+        "phone_url": "tel:+421902160679",
+        "email": "miloskoky8@gmail.com",
+        "address": "374X+35M Poprad, Slovakia",
+        "address_label": "Poprad, Slovensko",
+        "working_hours": "Po–Pi: 7:00–17:00",
+        "working_hours_note": "Víkendy po dohode",
+        "form_name_label": "Vaše meno",
+        "form_name_placeholder": "Ján Novák",
+        "form_phone_label": "Telefón",
+        "form_phone_placeholder": "+421 9XX XXX XXX",
+        "form_email_label": "E-mail",
+        "form_email_placeholder": "jan@example.com",
+        "form_message_label": "Správa",
+        "form_message_placeholder": "Popíšte váš projekt...",
+        "form_submit_text": "Odoslať správu",
+        "form_success_text": "Ďakujeme! Ozveme sa vám čoskoro."
+      }
+    },
+    {
+      "type": "footer",
+      "id": "footer_1",
+      "label": "Footer",
+      "order": 9,
+      "fields": {
+        "logo_text": "M+K Work",
+        "logo_sub": "s.r.o.",
+        "description": "Profesionálne stavebné práce v Poprade a okolí. Dlažby, zámkové dlažby, výkopové a zemné práce.",
+        "copyright_text": "© 2026 M+K Work s.r.o. Všetky práva vyhradené.",
+        "links": [
+          { "id": "ft_l1", "label": "O nás",    "url": "#about_1" },
+          { "id": "ft_l2", "label": "Služby",   "url": "#services_1" },
+          { "id": "ft_l3", "label": "Galéria",  "url": "#gallery_1" },
+          { "id": "ft_l4", "label": "Kontakt",  "url": "#contact_1" }
+        ]
+      }
+    }
+  ]
+}
